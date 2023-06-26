@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 const names =['Fahim', 'Rahman','Protik'];
 
 const NewNameList = names.map(name=>{
-    return(<h1>{name}</h1>);
+    return({name});
 }
 );
 
